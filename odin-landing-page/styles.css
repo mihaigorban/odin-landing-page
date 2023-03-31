@@ -15,14 +15,16 @@ body{
 
 #header-logo{
     font-size: 24px;
+    font-weight: 900;
     color: #F9FAF8;
+            
 }
 
 .header-link{
     font-size: 18px;
     color: #E5E7EB;
     margin: 10px;
-}
+    }
 
 .navbar{
     display: flex;
@@ -58,6 +60,7 @@ h1{
     display: flex;
     flex-direction: column;
     width: 50%;
+    justify-content: center;
     margin-left: 150px;
     
 }
@@ -76,6 +79,7 @@ h1{
 
 img{
     margin-bottom: 50px; 
+  
 }
 
 .sign-up-first-section {
@@ -85,4 +89,39 @@ img{
     height: 30px;
     border: 1px #3882F6;
     border-radius: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.row-of-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.box-blue {
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
 }
